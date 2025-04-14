@@ -8,7 +8,6 @@ import android.view.View
 import android.view.ViewGroup
 import com.hansheung.mob_project.R
 import com.hansheung.mob_project.databinding.FragmentHomeBinding
-import com.hansheung.mob_project.ui.base.BaseFragment
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
