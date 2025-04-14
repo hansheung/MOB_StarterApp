@@ -19,11 +19,4 @@ class AppModule {
         return "Hello Dagger Hilt 2"
     }
 
-    @Provides
-    @Singleton
-    @Named("msg1")
-    fun provideGreetingMsg1(): String{
-        return "Hello Dagger Hilt 2 1"
-    }
-
 }

@@ -12,9 +12,9 @@ import com.hansheung.mob_project.ui.base.BaseFragment
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class HomeFragment : BaseFragment() {
+class HomeFragment : Fragment() {
 
-    override val viewModel:HomeViewModel by viewModels()
+    val viewModel:HomeViewModel by viewModels()
     private lateinit var binding: FragmentHomeBinding
 
     override fun onCreateView(
